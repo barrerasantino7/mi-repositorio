@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+@font-face {
+    font-family: roboto;
+    src: url(fonts/roboto/Roboto-Bold.ttf);
+}
+body{
+background-color: #0f101a;
+}
+.encabezado{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+}
+.encabezado-titulo{
+    margin: 10px;
+    font-size: 40px;
+    font-family: roboto;
+}
+.encabezado-titulo label{
+    color: white;
+}
+#buscar{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.navegador{
+    width: 100%;
+}
+.navegador-lista{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    flex-flow: row wrap;
+}
+.navegador-lista a{
+    color: black;
+    background-color: white;
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px white;
+}
+main{
+    background-color: rgb(146, 15, 15);
+}
+
+
+footer{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 60% 40%;
+    grid-template-areas: 
+    "sn rs"
+    "f f";
+}
+footer div{
+    padding: 20px;
+    text-align: center; 
+}
+#nosotros{
+    grid-area: sn;
+}
+#redes{
+    grid-area: rs;
+}
+#fuentes{
+    grid-area: f;
+}
+div h3{
+    color: white;
+}
+div p{
+    color: white;
+}
