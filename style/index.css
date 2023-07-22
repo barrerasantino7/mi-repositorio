@@ -9,7 +9,7 @@
     src: url(fonts/roboto/Roboto-Bold.ttf);
 }
 body{
-    background-image: linear-gradient(rgb(163, 39, 39), rgb(128, 29, 29));
+background-color: #0f101a;
 }
 .encabezado{
     display: flex;
@@ -40,7 +40,7 @@ section{
     flex-flow: column nowrap;
     align-items: center;
     justify-content: center;
-    margin: 15px;
+    margin: 30px;
     transition: 0.3s;
 }
 .boton-img{
